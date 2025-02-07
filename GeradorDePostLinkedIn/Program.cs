@@ -20,7 +20,7 @@ namespace GeradorDePostLinkedIn
 
         static async Task Main(string[] args)
         {
-            string url = "https://www.aidrop.news/p/agi-prazo-de-entrega-economia-chips?_bhlid=62a388fcba79f273fac5edb76354d3152baceda9&last_resource_guid=Post%3A8982e5db-c241-4315-9680-9880bb148f5d&utm_campaign=qual-o-prazo-de-entrega-da-agi&utm_medium=newsletter&utm_source=www.aidrop.news"; // Substitua pela URL desejada
+            string url = "https://news"; // Substitua pela URL desejada
             string textoExtraido = await ExtrairTextoDaUrl(url);
 
             string textoLimpo = LimparTexto(textoExtraido);
